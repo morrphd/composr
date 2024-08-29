@@ -1,12 +1,11 @@
 Package: composr
-Title: What the Package Does (One Line, Title Case)
+Title: Create composite variables from survey data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Ethan", "Morrow", , "emorrow3@illinois.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-4308-7607"))
+Description: This package automates the creation of composite variables from survey data. Using naming conventions of the items, composr detects items that belong to the same scale. It can also calculate basic descriptive statistics, such as the mean, standard deviation, and Cronbach Alpha for composite variables.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
