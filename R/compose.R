@@ -1,5 +1,8 @@
 #' Group Items into Scales
 #'
+#' @description
+#' This function uses item naming conventions to determine which items belong to the same scale. Please ensure the item name reflects the scale and the item number, separated by an underscore. For example, the third item of an attitude scale may be designated as "Att_3." All data cleaning and item recoding should be done prior to calling this function.
+#'
 #' @param df Data frame of items
 #'
 #' @return List of scales containing a list of items
