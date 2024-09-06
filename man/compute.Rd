@@ -20,5 +20,4 @@ Create and Compute Composite Variable Statistics
 \examples{
 #Use data from the compose function
 #testData <- compute(test$var1, testData)
-
 }

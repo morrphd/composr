@@ -10,7 +10,6 @@
 #'
 #' @examples #Use data from the compose function
 #' #testData <- compute(test$var1, testData)
-#'
 
 compute <- function(loc, df){
   name <- as.character(substitute(loc)[3])

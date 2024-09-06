@@ -3,5 +3,6 @@
 export(compose)
 export(compute)
 export(settle)
+export(unsettled)
 importFrom(stats,na.omit)
 importFrom(stats,var)
